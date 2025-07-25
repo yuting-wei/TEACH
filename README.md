@@ -1,6 +1,6 @@
-# Refined Metrics Evaluation Toolkit for TEACH
+# Refined Evaluation Metrics Toolkit for TEACH
 
-This toolkit evaluates **refined BLEU and ROUGE scores** by word alignment self-labeling. It includes two main scripts:
+This toolkit computes refined BLEU and ROUGE scores, using a word alignment self-labeling approach. It includes two main scripts:
 
 - `was.py`: Computes word alignments based on reference and candidate sentences.
 - `refined_metrics.py`: Calculates refined BLEU and ROUGE scores using alignment results.
@@ -63,7 +63,7 @@ python was.py \
 
 ---
 
-### Step 2: Evaluate Refined BLEU and ROUGE
+### Step 2: Calculate Refined BLEU and ROUGE Scores
 
 ```bash
 python refined_metrics.py --test_model your-model-name
